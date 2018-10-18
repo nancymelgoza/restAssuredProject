@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="rest assured test">
+
+  <test name="rest assured trainning">
+    <classes>
+     	  <class name="Trainning.RestAsssured.SimpleRestAssured"></class> 
+    	  <class name="Trainning.RestAsssured.SchemaValidation"></class>
+    	  <class name="Trainning.RestAsssured.HeaderAuthorization"></class>
+    </classes>
+  </test>
+</suite> 

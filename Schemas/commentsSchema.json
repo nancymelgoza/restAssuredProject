@@ -1,0 +1,69 @@
+{
+ 2   "definitions": {},
+ 3   "$schema": "http://json-schema.org/draft-07/schema#",
+ 4   "$id": "http://example.com/root.json",
+ 5   "type": "array",
+ 6   "title": "The Root Schema",
+ 7   "items": {
+ 8     "$id": "#/items",
+ 9     "type": "object",
+10     "title": "The Items Schema",
+11     "required": [
+12       "postId",
+13       "id",
+14       "name",
+15       "email",
+16       "body"
+17     ],
+18     "properties": {
+19       "postId": {
+20         "$id": "#/items/properties/postId",
+21         "type": "integer",
+22         "title": "The Postid Schema",
+23         "default": 0,
+24         "examples": [
+25           1
+26         ]
+27       },
+28       "id": {
+29         "$id": "#/items/properties/id",
+30         "type": "integer",
+31         "title": "The Id Schema",
+32         "default": 0,
+33         "examples": [
+34           1
+35         ]
+36       },
+37       "name": {
+38         "$id": "#/items/properties/name",
+39         "type": "string",
+40         "title": "The Name Schema",
+41         "default": "",
+42         "examples": [
+43           "id labore ex et quam laborum"
+44         ],
+45         "pattern": "^(.*)$"
+46       },
+47       "email": {
+48         "$id": "#/items/properties/email",
+49         "type": "string",
+50         "title": "The Email Schema",
+51         "default": "",
+52         "examples": [
+53           "Eliseo@gardner.biz"
+54         ],
+55         "pattern": "^(.*)$"
+56       },
+57       "body": {
+58         "$id": "#/items/properties/body",
+59         "type": "string",
+60         "title": "The Body Schema",
+61         "default": "",
+62         "examples": [
+63           "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+64         ],
+65         "pattern": "^(.*)$"
+66       }
+67     }
+68   }
+69 }

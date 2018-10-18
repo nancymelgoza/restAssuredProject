@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5619" started-at="2018-10-17T22:32:43Z" finished-at="2018-10-17T22:32:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5619" started-at="2018-10-17T22:32:43Z" finished-at="2018-10-17T22:32:49Z">
+      <class name="Trainning.RestAsssured.SchemaValidation">
+        <test-method status="PASS" signature="response()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@59ec2012]" name="response" is-config="true" duration-ms="288" started-at="2018-10-17T17:32:43Z" finished-at="2018-10-17T17:32:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- response -->
+        <test-method status="PASS" signature="albumsSchemaValidation()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@59ec2012]" name="albumsSchemaValidation" duration-ms="2677" started-at="2018-10-17T17:32:43Z" finished-at="2018-10-17T17:32:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- albumsSchemaValidation -->
+        <test-method status="PASS" signature="commentsSchemaValidation()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@59ec2012]" name="commentsSchemaValidation" duration-ms="287" started-at="2018-10-17T17:32:46Z" finished-at="2018-10-17T17:32:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commentsSchemaValidation -->
+        <test-method status="PASS" signature="getCommentsPostId1()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@59ec2012]" name="getCommentsPostId1" duration-ms="203" started-at="2018-10-17T17:32:46Z" finished-at="2018-10-17T17:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCommentsPostId1 -->
+        <test-method status="PASS" signature="getPostsUserId1()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@59ec2012]" name="getPostsUserId1" duration-ms="217" started-at="2018-10-17T17:32:47Z" finished-at="2018-10-17T17:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPostsUserId1 -->
+        <test-method status="PASS" signature="postsId100()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@59ec2012]" name="postsId100" duration-ms="596" started-at="2018-10-17T17:32:47Z" finished-at="2018-10-17T17:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postsId100 -->
+        <test-method status="PASS" signature="postsId20()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@59ec2012]" name="postsId20" duration-ms="245" started-at="2018-10-17T17:32:47Z" finished-at="2018-10-17T17:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postsId20 -->
+        <test-method status="PASS" signature="postsId50()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@59ec2012]" name="postsId50" duration-ms="273" started-at="2018-10-17T17:32:48Z" finished-at="2018-10-17T17:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postsId50 -->
+        <test-method status="PASS" signature="postsSchemaValidation()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@59ec2012]" name="postsSchemaValidation" duration-ms="258" started-at="2018-10-17T17:32:48Z" finished-at="2018-10-17T17:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postsSchemaValidation -->
+        <test-method status="PASS" signature="todosSchemaValidation()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@59ec2012]" name="todosSchemaValidation" duration-ms="285" started-at="2018-10-17T17:32:48Z" finished-at="2018-10-17T17:32:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- todosSchemaValidation -->
+        <test-method status="PASS" signature="usersSchemaValidation()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@59ec2012]" name="usersSchemaValidation" duration-ms="254" started-at="2018-10-17T17:32:49Z" finished-at="2018-10-17T17:32:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersSchemaValidation -->
+      </class> <!-- Trainning.RestAsssured.SchemaValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

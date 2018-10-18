@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="rest assured test" duration-ms="6675" started-at="2018-10-17T22:33:08Z" finished-at="2018-10-17T22:33:15Z">
+    <groups>
+    </groups>
+    <test name="rest assured trainning" duration-ms="6675" started-at="2018-10-17T22:33:08Z" finished-at="2018-10-17T22:33:15Z">
+      <class name="Trainning.RestAsssured.HeaderAuthorization">
+        <test-method status="PASS" signature="response()[pri:0, instance:Trainning.RestAsssured.HeaderAuthorization@b97c004]" name="response" is-config="true" duration-ms="0" started-at="2018-10-17T17:33:14Z" finished-at="2018-10-17T17:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- response -->
+        <test-method status="PASS" signature="givenUrlBody()[pri:0, instance:Trainning.RestAsssured.HeaderAuthorization@b97c004]" name="givenUrlBody" duration-ms="465" started-at="2018-10-17T17:33:14Z" finished-at="2018-10-17T17:33:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenUrlBody -->
+      </class> <!-- Trainning.RestAsssured.HeaderAuthorization -->
+      <class name="Trainning.RestAsssured.SimpleRestAssured">
+        <test-method status="PASS" signature="response()[pri:0, instance:Trainning.RestAsssured.SimpleRestAssured@3c09711b]" name="response" is-config="true" duration-ms="286" started-at="2018-10-17T17:33:08Z" finished-at="2018-10-17T17:33:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- response -->
+        <test-method status="PASS" signature="getAlbums()[pri:0, instance:Trainning.RestAsssured.SimpleRestAssured@3c09711b]" name="getAlbums" duration-ms="1479" started-at="2018-10-17T17:33:08Z" finished-at="2018-10-17T17:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlbums -->
+        <test-method status="PASS" signature="getComments()[pri:0, instance:Trainning.RestAsssured.SimpleRestAssured@3c09711b]" name="getComments" duration-ms="225" started-at="2018-10-17T17:33:10Z" finished-at="2018-10-17T17:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getComments -->
+        <test-method status="PASS" signature="getPhotos()[pri:0, instance:Trainning.RestAsssured.SimpleRestAssured@3c09711b]" name="getPhotos" duration-ms="285" started-at="2018-10-17T17:33:10Z" finished-at="2018-10-17T17:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPhotos -->
+        <test-method status="PASS" signature="getPosts()[pri:0, instance:Trainning.RestAsssured.SimpleRestAssured@3c09711b]" name="getPosts" duration-ms="215" started-at="2018-10-17T17:33:10Z" finished-at="2018-10-17T17:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPosts -->
+        <test-method status="PASS" signature="getTodos()[pri:0, instance:Trainning.RestAsssured.SimpleRestAssured@3c09711b]" name="getTodos" duration-ms="217" started-at="2018-10-17T17:33:10Z" finished-at="2018-10-17T17:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTodos -->
+        <test-method status="PASS" signature="getUsers()[pri:0, instance:Trainning.RestAsssured.SimpleRestAssured@3c09711b]" name="getUsers" duration-ms="228" started-at="2018-10-17T17:33:11Z" finished-at="2018-10-17T17:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsers -->
+      </class> <!-- Trainning.RestAsssured.SimpleRestAssured -->
+      <class name="Trainning.RestAsssured.SchemaValidation">
+        <test-method status="PASS" signature="response()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@5cc7c2a6]" name="response" is-config="true" duration-ms="1" started-at="2018-10-17T17:33:11Z" finished-at="2018-10-17T17:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- response -->
+        <test-method status="PASS" signature="albumsSchemaValidation()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@5cc7c2a6]" name="albumsSchemaValidation" duration-ms="692" started-at="2018-10-17T17:33:11Z" finished-at="2018-10-17T17:33:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- albumsSchemaValidation -->
+        <test-method status="PASS" signature="commentsSchemaValidation()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@5cc7c2a6]" name="commentsSchemaValidation" duration-ms="290" started-at="2018-10-17T17:33:12Z" finished-at="2018-10-17T17:33:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commentsSchemaValidation -->
+        <test-method status="PASS" signature="getCommentsPostId1()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@5cc7c2a6]" name="getCommentsPostId1" duration-ms="208" started-at="2018-10-17T17:33:12Z" finished-at="2018-10-17T17:33:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCommentsPostId1 -->
+        <test-method status="PASS" signature="getPostsUserId1()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@5cc7c2a6]" name="getPostsUserId1" duration-ms="213" started-at="2018-10-17T17:33:12Z" finished-at="2018-10-17T17:33:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPostsUserId1 -->
+        <test-method status="PASS" signature="postsId100()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@5cc7c2a6]" name="postsId100" duration-ms="576" started-at="2018-10-17T17:33:12Z" finished-at="2018-10-17T17:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postsId100 -->
+        <test-method status="PASS" signature="postsId20()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@5cc7c2a6]" name="postsId20" duration-ms="228" started-at="2018-10-17T17:33:13Z" finished-at="2018-10-17T17:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postsId20 -->
+        <test-method status="PASS" signature="postsId50()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@5cc7c2a6]" name="postsId50" duration-ms="286" started-at="2018-10-17T17:33:13Z" finished-at="2018-10-17T17:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postsId50 -->
+        <test-method status="PASS" signature="postsSchemaValidation()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@5cc7c2a6]" name="postsSchemaValidation" duration-ms="275" started-at="2018-10-17T17:33:13Z" finished-at="2018-10-17T17:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postsSchemaValidation -->
+        <test-method status="PASS" signature="todosSchemaValidation()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@5cc7c2a6]" name="todosSchemaValidation" duration-ms="239" started-at="2018-10-17T17:33:14Z" finished-at="2018-10-17T17:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- todosSchemaValidation -->
+        <test-method status="PASS" signature="usersSchemaValidation()[pri:0, instance:Trainning.RestAsssured.SchemaValidation@5cc7c2a6]" name="usersSchemaValidation" duration-ms="242" started-at="2018-10-17T17:33:14Z" finished-at="2018-10-17T17:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersSchemaValidation -->
+      </class> <!-- Trainning.RestAsssured.SchemaValidation -->
+    </test> <!-- rest assured trainning -->
+  </suite> <!-- rest assured test -->
+</testng-results>

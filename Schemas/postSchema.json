@@ -1,0 +1,58 @@
+{
+ 2   "definitions": {},
+ 3   "$schema": "http://json-schema.org/draft-07/schema#",
+ 4   "$id": "http://example.com/root.json",
+ 5   "type": "array",
+ 6   "title": "The Root Schema",
+ 7   "items": {
+ 8     "$id": "#/items",
+ 9     "type": "object",
+10     "title": "The Items Schema",
+11     "required": [
+12       "userId",
+13       "id",
+14       "title",
+15       "body"
+16     ],
+17     "properties": {
+18       "userId": {
+19         "$id": "#/items/properties/userId",
+20         "type": "integer",
+21         "title": "The Userid Schema",
+22         "default": 0,
+23         "examples": [
+24           1
+25         ]
+26       },
+27       "id": {
+28         "$id": "#/items/properties/id",
+29         "type": "integer",
+30         "title": "The Id Schema",
+31         "default": 0,
+32         "examples": [
+33           1
+34         ]
+35       },
+36       "title": {
+37         "$id": "#/items/properties/title",
+38         "type": "string",
+39         "title": "The Title Schema",
+40         "default": "",
+41         "examples": [
+42           "sunt aut facere repellat provident occaecati excepturi optio reprehenderit"
+43         ],
+44         "pattern": "^(.*)$"
+45       },
+46       "body": {
+47         "$id": "#/items/properties/body",
+48         "type": "string",
+49         "title": "The Body Schema",
+50         "default": "",
+51         "examples": [
+52           "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+53         ],
+54         "pattern": "^(.*)$"
+55       }
+56     }
+57   }
+58 }
